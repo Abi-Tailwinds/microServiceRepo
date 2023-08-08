@@ -1,0 +1,8 @@
+deployment:
+  image: "abinaya251/myflaskapp"
+  tag: "latest"
+  secret: regcred
+name: repo1
+service:
+  type: LoadBalancer
+  port: 80
